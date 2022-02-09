@@ -1,0 +1,267 @@
+.mainDiv{
+    display: flex;
+   
+}
+.div1_{
+  display: block;
+  padding: 4.4rem;
+  margin-top: 7rem;
+}
+.div2_{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 14rem; 
+}
+.div3_{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.label{
+   height: 2.4vw;
+   border: 1px solid transparent!important;
+    background-color: #fafafa!important;
+    margin-top: 5px;
+}
+.lbl{
+    font-size: 30px;
+}
+.mb-3{
+    width:40vw;
+   
+}
+.img_{
+    height: 100vh;
+    object-fit: cover;
+    width: 100vh;
+}
+.chkbox{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.b1{
+    width: 100%;
+    height: 2.4vw;
+}
+.span{
+    opacity: 0.9;
+    font-size: 17px;
+}
+.spans{
+    font-size: 15px;
+}
+a{
+text-decoration: none!important;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .mainDiv{
+        display: flex;
+       
+    }
+    .div1_{
+      display: block;
+    }
+    .div2_{
+        display: flex;
+     
+    }
+    .img_{
+        height: 100%;
+    object-fit: cover;
+    width: 55vw;
+    }
+  
+    .mb-3{
+        width: 35vw;
+        
+    }
+    .label{
+        height: 100%;
+        }
+        .b1{
+            height: 100%;
+        }
+    /* .div3_{
+        margin-top: 5px;
+        margin-right: 5px; */
+    /* }
+  
+    .chkbox{
+        display:-webkit-inline-box;
+        column-gap: 9.5rem;
+        font-size: 11px;
+    }
+   
+    .b1{
+        width: 100%;
+       margin-top: 7px;
+    }
+    .span{
+        opacity: 0.9;
+        font-size: 15px;
+    }
+     */
+   
+  }
+
+
+ /* for small screens and laptops  */
+@media screen and (max-width:1024px) {
+    .mainDiv{
+        display: block;
+       
+    }
+    .div1_{
+      display: block;
+      padding: 3rem;
+      margin-top: 26px;
+    }
+    .div2_{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 5rem;
+    }
+    .img_{
+        height: 50vw;
+        width: 100%;
+        object-fit: cover;
+    } 
+    .mb-3{
+        width: 100%;        
+    }
+    .label{
+        height: 100%;
+        }
+        .b1{
+            height: 100%;
+        }
+    /* .div3_{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    
+    .chkbox{
+        display: flex;
+      justify-content: space-between;
+    }
+   
+    .b1{
+        width: 100%;
+                margin-top: 7px;
+    }
+    .span{
+        opacity: 0.9;
+        /* font-size: 15px; */
+    /* }
+    .href{
+        text-decoration: none;
+    }  */
+}  
+
+/* for ipads and tablets */
+@media screen and (max-width:768px) {
+    .mainDiv{
+        display: block;
+       
+    }
+    .div1_{
+      display: block;
+      padding: 3rem;
+    }
+    .div2_{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 3.5rem;
+    }
+    .spans{
+        font-size: 13px;
+    }
+    .img_{
+        height: 55vw;
+        width: 100%;
+    }
+    .mb-3{
+        width: 100%;  
+        height: 100%;      
+    }
+    .label{
+    height: 100%;
+    }
+    .b1{
+        height: 100%;
+    }
+    /* .div3_{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+  
+    .chkbox{
+        display: flex;
+     
+    }
+  
+    .b1{
+        width: 100%;
+                margin-top: 7px;
+    }
+    .span{
+        opacity: 0.9;
+        font-size: 13px;
+    } */
+}
+
+/* for mobiles */
+@media screen and (max-width:480px) {
+    .mainDiv{
+        display:block;
+       
+    }
+    .div1_{
+      display: block;
+      padding: 2rem;
+    }
+    .div2_{
+        display: flex;
+        margin-top: 4rem;
+    }
+    .spans{
+        font-size: 10px;
+    }
+    .img_{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .mb-3{
+        width: 100%;        
+    }
+    .label{
+        height: 100%;
+        }
+        .b1{
+            height: 100%;
+        }
+    /* .div3_{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+   
+    .chkbox{
+        display: flex;
+        align-items: center;
+        column-gap: 9.5rem;
+        font-size: 10px;
+    }
+   
+    .b1{
+        width: 100%;
+              
+    }
+    .span{
+        opacity: 0.9;
+        font-size: 10px;
+    } */
+}
