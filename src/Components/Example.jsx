@@ -12,7 +12,7 @@ export default function WebShareGfg(){
 return (
 	<div>
 		<div>
-    <p style={{fontSize:"16px"}}>Share With Friends And Earn More Rewards For Each One You Onboard With Us Earn 20 Rbitx Tokens</p>
+    <p style={{fontSize:"16px"}}>Share With Friends And Earn More Rewards For Each One You Onboard With Us Earn 25 Rbitx Tokens</p>
     <span  style={{fontSize:"14px"}}>Your referral ID</span>
     </div>
     <br />
