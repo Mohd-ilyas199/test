@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/test/static/css/main.0267ed79.css",
-    "main.js": "/test/static/js/main.bb1ed7d4.js",
+    "main.js": "/test/static/js/main.3020588b.js",
     "static/js/787.f50e6cd1.chunk.js": "/test/static/js/787.f50e6cd1.chunk.js",
     "static/media/itachiuchia.jpg": "/test/static/media/itachiuchia.890c9e174d2e9bd2cea6.jpg",
     "index.html": "/test/index.html",
     "main.0267ed79.css.map": "/test/static/css/main.0267ed79.css.map",
-    "main.bb1ed7d4.js.map": "/test/static/js/main.bb1ed7d4.js.map",
+    "main.3020588b.js.map": "/test/static/js/main.3020588b.js.map",
     "787.f50e6cd1.chunk.js.map": "/test/static/js/787.f50e6cd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0267ed79.css",
-    "static/js/main.bb1ed7d4.js"
+    "static/js/main.3020588b.js"
   ]
 }
