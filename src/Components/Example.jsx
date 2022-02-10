@@ -87,10 +87,14 @@ return (
     open={open}
     onClose={HandleClose}
     >
+      <div>
+      <div className="X">
+    <span   style={{cursor:"pointer"}} onClick={HandleClose}>X</span>
+    </div>
   <div className='SharingDiv'>
-          <WhatsappShareButton 
+         <WhatsappShareButton 
           title='Referral'
-          url='https://web.whatsapp.com/'
+          url='https://rbitex.com/'
           id="url"
           >
             <WhatsappIcon  size={40} round/>
@@ -101,7 +105,7 @@ return (
 
             <EmailShareButton
             title='Referral'
-            url={`https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp`}
+            url="https://rbitex.com/"
           
             >
                 <EmailIcon size={40} round />
@@ -109,17 +113,18 @@ return (
 
               <FacebookShareButton
                 title={"Referral"}
-               url={"https://www.facebook.com/login/"}
+               url="https://rbitex.com/"
       >
         <FacebookIcon size={40} round /> 
       </FacebookShareButton>
       <TwitterShareButton
         title={"Referral"}
-        url={"https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"}
+        url="https://rbitex.com/"
       >
         <TwitterIcon size={40} round />
       </TwitterShareButton>
         </div> 
+        </div>
            </Modal>
 	</div>
 );

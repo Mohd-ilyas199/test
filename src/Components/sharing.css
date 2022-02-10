@@ -8,9 +8,15 @@
     width: 25rem;
     margin: auto;
     border-radius: 10px;
+   
 }
 .copy{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.X{
+   margin-left: 55rem;
+    position: absolute;
+
 }
