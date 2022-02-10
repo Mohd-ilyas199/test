@@ -1,0 +1,11 @@
+.SharingDiv{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    background-color: white;
+   margin-top: 120px!important;
+    height: 30rem;
+    width: 25rem;
+    margin: auto;
+    border-radius: 10px;
+}

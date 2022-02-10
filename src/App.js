@@ -3,12 +3,14 @@ import './App.css';
 // import Login from './Components/Login';
 import Itachi from './Components/Itachi';
 import Example from "./Components/Example"
+import Sharing from './Components/Sharing';
 function App() {
   return (
     <div>  
      {/* <Home /> */}
      {/* <Itachi /> */}
      <Example />
+     {/* <Sharing /> */}
      {/* <Login /> */}
     </div>
   );
