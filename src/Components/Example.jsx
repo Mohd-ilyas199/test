@@ -16,16 +16,23 @@ import {
 } from "react-share";
 import "./sharing.css"
 import { Modal } from '@material-ui/core';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
 
 
 export default function WebShareGfg(){	
 	const [copied,setCopied]=useState(false)
+  const [urlCopied,setUrlCopied]=useState(false)
   const [open,setOpen]=useState(false)
 	const copyAddress = () => {
 		const copyText = document.getElementById('code');
 		navigator.clipboard.writeText(copyText.innerText);
 		setCopied(true)
 	  }
+    const copyURL = () => {
+      const copyURLtext = document.getElementById('url');
+      navigator.clipboard.writeText(copyURLtext.innerText);
+      setCopied(true)
+      }
 
     const HandleClose=()=>{
       setOpen(false)
@@ -84,28 +91,33 @@ return (
           <WhatsappShareButton 
           title='Referral'
           url='https://web.whatsapp.com/'
+          id="url"
           >
-            <WhatsappIcon  size={64} round/>
+            <WhatsappIcon  size={40} round/>
           </WhatsappShareButton>
+          <span className="copy">
+          <FileCopyIcon onClick={copyURL}/>
+          </span>
 
             <EmailShareButton
             title='Referral'
-            url='https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp'
+            url={`https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp`}
+          
             >
-                <EmailIcon size={64} round />
+                <EmailIcon size={40} round />
             </EmailShareButton>
 
               <FacebookShareButton
                 title={"Referral"}
                url={"https://www.facebook.com/login/"}
       >
-        <FacebookIcon size={64} round /> 
+        <FacebookIcon size={40} round /> 
       </FacebookShareButton>
       <TwitterShareButton
         title={"Referral"}
         url={"https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"}
       >
-        <TwitterIcon size={64} round />
+        <TwitterIcon size={40} round />
       </TwitterShareButton>
         </div> 
            </Modal>
